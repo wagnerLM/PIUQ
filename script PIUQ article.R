@@ -5,7 +5,7 @@ library(psych)
 library(semTools)
 library(semPlot)
 
-##### CFA, reliability,normative table, MIMIC, figure, other evaluated models #####
+##### CFA, reliability,normative table, MIMIC, figure, and other evaluated models #####
 ### data prep ###
 piuq_sem<-read.csv("https://raw.githubusercontent.com/wagnerLM/PIUQ/main/PIUQ_data",sep = ";",dec = ",")
 colnames(piuq_sem)<-c("Item1","Item2","Item3","Item4","Item5","Item6","Item7","Item8","Item9","Age","TSO","SPU","CESD")
