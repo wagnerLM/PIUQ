@@ -1,0 +1,89 @@
+lavaan 0.6-5 ended normally after 68 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of free parameters                         57
+                                                      
+  Number of observations                          1524
+                                                      
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                                23.294      67.661
+  Degrees of freedom                                15          15
+  P-value (Chi-square)                           0.078       0.000
+  Scaling correction factor                                  0.354
+  Shift parameter                                            1.879
+    for the simple second-order correction 
+
+Model Test Baseline Model:
+
+  Test statistic                             39911.048   19685.185
+  Degrees of freedom                                36          36
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  2.029
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000       0.997
+  Tucker-Lewis Index (TLI)                       1.000       0.994
+                                                                  
+  Robust Comparative Fit Index (CFI)                            NA
+  Robust Tucker-Lewis Index (TLI)                               NA
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.019       0.048
+  90 Percent confidence interval - lower         0.000       0.037
+  90 Percent confidence interval - upper         0.033       0.060
+  P-value RMSEA <= 0.05                          1.000       0.587
+                                                                  
+  Robust RMSEA                                                  NA
+  90 Percent confidence interval - lower                        NA
+  90 Percent confidence interval - upper                        NA
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.014       0.014
+
+Parameter Estimates:
+
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+  Standard errors                           Robust.sem
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  general =~                                                            
+    q0018_0001        1.000                               0.641    0.641
+    q0018_0003        0.891    0.040   22.433    0.000    0.571    0.571
+    q0018_0009        1.096    0.050   21.756    0.000    0.702    0.702
+    q0018_0005        1.118    0.046   24.313    0.000    0.716    0.716
+    q0018_0007        0.868    0.041   21.246    0.000    0.556    0.556
+    q0018_0008        1.085    0.044   24.637    0.000    0.695    0.695
+    q0018_0002        1.125    0.043   26.034    0.000    0.721    0.721
+    q0018_0004        1.165    0.044   26.336    0.000    0.746    0.746
+    q0018_0006        1.352    0.075   17.941    0.000    0.866    0.866
+  neglig =~                                                             
+    q0018_0001        1.000                               0.469    0.469
+    q0018_0003        1.035    0.116    8.891    0.000    0.486    0.486
+    q0018_0009       -0.026    0.120   -0.215    0.830   -0.012   -0.012
+  obss =~                                                               
+    q0018_0005        1.000                               0.482    0.482
+    q0018_0007        1.302    0.084   15.577    0.000    0.627    0.627
+    q0018_0008        1.074    0.061   17.623    0.000    0.517    0.517
+  discon =~                                                             
+    q0018_0002        1.000                               0.529    0.529
+    q0018_0004        1.072    0.070   15.322    0.000    0.567    0.567
+    q0018_0006       -0.154    0.109   -1.403    0.161   -0.081   -0.081
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  general ~~                                                            
+    neglig            0.000                               0.000    0.000
+    obss              0.000                               0.000    0.000
+    discon            0.000                               0.000    0.000
+  neglig ~~                                                             
+    obss              0.095    0.021    4.459    0.000    0.418    0.418
+    discon            0.144    0.029    4.917    0.000    0.579    0.579
+  obss ~~                                                               
+    discon            0.015    0.020    0.754    0.451    0.059    0.059
