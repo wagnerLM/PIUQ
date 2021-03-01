@@ -1,7 +1,5 @@
 ##### packages #####
 library(lavaan)
-library(qgraph)
-library(psych)
 library(semTools)
 library(semPlot)
 
